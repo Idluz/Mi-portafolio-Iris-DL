@@ -1,0 +1,107 @@
+/* Estilo general*/
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #fdf6f0; 
+    color: #333; 
+    margin: 0; 
+    padding: 20px;
+}
+/* Para el encabezado y el Menú*/
+header {
+    background-color: #f8d7da;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #c76969;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #944e63;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #6e2f40;
+}
+
+/*contenido principal de las páginas*/
+main {
+    background-color: #fef4e8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+main img, main video {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+/*para las secciones*/
+section {
+    margin-bottom: 20px;
+}
+h2 {
+    color: #a97474;
+}
+/* para el formulario página de contácto*/
+form {
+    background-color: #ffe9d6;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #6e2f40;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #d7b5b5;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #f7c5a0;
+    border: none;
+    border-radius: 4px;
+    color: #5a2e2e;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f0ae80;
+}
+
+p {
+    text-align: center; 
+
+}
